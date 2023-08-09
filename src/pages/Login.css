@@ -1,0 +1,225 @@
+.ellipseDiv,
+.loginChild,
+.loginInner,
+.loginItem {
+  position: absolute;
+  top: 1.13rem;
+  left: 66.25rem;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #d9d9d9, rgba(217, 217, 217, 0));
+  width: 9.69rem;
+  height: 9.25rem;
+  
+}
+.ellipseDiv,
+.loginInner,
+.loginItem {
+  top: 0.75rem;
+  left: 36.44rem;
+  width: 6.56rem;
+  height: 5.5rem;
+}
+
+body{
+
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+.ellipseDiv,
+.loginInner {
+  top: 3.4rem;
+  left: -5.25rem;
+  width: 14.91rem;
+  height: 14.5rem;
+  transform: rotate(-37.11deg);
+  transform-origin: 0 0;
+}
+.ellipseDiv {
+  top: 50.64rem;
+  left: 4.99rem;
+  width: 13.85rem;
+  height: 12.96rem;
+  transform: rotate(-131.69deg);
+}
+.glassPannel {
+  position: absolute;
+  top: 2.06rem;
+  left: 6.81rem;
+  border-radius: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 253, 253, 0.56),
+    rgba(250, 243, 243, 0.16)
+  );
+  backdrop-filter: blur(50px);
+  border: 2px solid rgba(255, 253, 253, 0.4);
+  box-sizing: border-box;
+  width: 66.38rem;
+  height: 33.81rem;
+}
+.login1 {
+  position: absolute;
+  top: 3.5rem;
+  left: 18.25rem;
+  font-size: 1.88rem;
+  color: #050505;
+}
+.welcomeToWoodempire {
+  position: absolute;
+  top: 7.75rem;
+  left: 18.19rem;
+  font-size: 1.25rem;
+}
+.rectangleButton,
+.submit {
+  width: 27.63rem;
+  position: absolute;
+  top: 32.19rem;
+  left: 20.75rem;
+}
+.submit {
+  font-size: 1.38rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+}
+.loginChild1,
+.loginWithEmail {
+  width: 23.5rem;
+  position: absolute;
+  background-color: transparent;
+  top: 12.56rem;
+  left: 18.13rem;
+  border: 1px solid var(--color-white);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.27)
+  );
+}
+.loginWithEmail {
+  left: 18.19rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23.44rem;
+  height: 2.69rem;
+  
+}
+.loginChild2,
+.loginWithFacebook {
+  width: 23.5rem;
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid var(--color-white);
+  top: 12.56rem;
+  left: 43.75rem;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.27)
+  );
+}
+.loginWithFacebook {
+  left: 43.69rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.69rem;
+}
+.lineDiv,
+.loginChild3 {
+  position: absolute;
+  top: 20.34rem;
+  left: 20.72rem;
+  border-top: 1px dashed var(--color-gray-100);
+  box-sizing: border-box;
+  width: 12.69rem;
+  height: 0.06rem;
+}
+.loginChild3 {
+  left: 35.22rem;
+}
+.or {
+  position: absolute;
+  top: 19.44rem;
+  left: 33.75rem;
+  font-size: 1.13rem;
+}
+.loginChild4,
+.rectangleIcon {
+  position: absolute;
+  top: 13rem;
+  left: 18.13rem;
+  width: 3.5rem;
+  height: 1.75rem;
+  object-fit: scale-down;
+}
+.loginChild4 {
+  top: 13.06rem;
+  left: 43.75rem;
+}
+.userName {
+  position: absolute;
+  top: 22.13rem;
+  left: 18.19rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.forgotPassword,
+.passWord {
+  position: absolute;
+  top: 27.94rem;
+  left: 45.13rem;
+  text-shadow: #d9d9d9;
+}
+.passWord {
+  top: 21.88rem;
+  left: 36.81rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.loginChild5,
+.rectangleInput {
+  border: 1px solid var(--color-white);
+  background-color: transparent;
+  position: absolute;
+  top: 24.25rem;
+  left: 18.19rem;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.27)
+  );
+  box-sizing: border-box;
+  width: 17.25rem;
+  height: 2.69rem;
+}
+.loginChild5 {
+  top: 24.38rem;
+  left: 36.81rem;
+}
+.ellipseFormcheck,
+.rememberMe {
+  position: absolute;
+  top: 28.31rem;
+  left: 18.13rem;
+}
+.rememberMe {
+  top: 28rem;
+  left: 20.06rem;
+}
+.login {
+  position: relative;
+  background-color: #1392ba;
+  width: 100%;
+  height: 45rem;
+  overflow-x: auto;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
